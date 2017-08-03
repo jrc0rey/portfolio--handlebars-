@@ -37,6 +37,7 @@ ul.mobileContact a{
 
 ul.mobileContact{
 	margin-top: 5px;
+	padding: 0;
 }
 
 div.socialMedia img{
@@ -88,5 +89,3 @@ nav{
 	/*height: 20%;*/
 	background-color: #1C0030;
 }
-
-

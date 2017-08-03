@@ -38,7 +38,7 @@
 	margin-right: 12px;
 }
 
-.resLinks{
+.linksMobile{
 	font-size: 20px;
 
 }
@@ -48,17 +48,17 @@ nav{
 }
 
 
-ul.resLinks li{
+.linksMobile li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 40px;
 }
 
-ul.resLinks li a{
+.linksMobile li a{
 	color: white;
 }
 
-ul.resLinks li a:hover{
+.linksMobile li a:hover{
 	color: #6F00FF !important;
 }

@@ -62,6 +62,64 @@ $(function(){
 };
 var compiled = theTemplate(context);
 $('.work').html(compiled);
+// $('nav').html(compiled);
+});
+
+$(function(){
+  var template = $('#templateTwo').html();
+  var theTemplate = Handlebars.compile(template);
+	var context={
+    "linksMobile":[{
+			link: "scofflaw.html",
+			title: "Scofflaw App"
+			},
+			{
+			link: "greysite.html",
+			title: "Greysite Game"
+			},
+			{
+			link: "api-collection.html",
+			title: "API Collection App"
+			},
+			{
+			link: "audible.html",
+			title: "Audible.com"
+			},
+			{
+			link: "caf.html",
+			title: "Chicago Architecture Foundation"
+			},
+			{
+			link: "key-art.html",
+			title: "Key Art"
+			},
+			{
+			link: "hollywood-casino.html",
+			title: "Hollywood Casino"
+			},
+			{
+			link: "virgin-mobile.html",
+			title: "Virgin Mobile"
+			},
+			{
+			link: "photography.html",
+			title: "Photography"
+			},
+			{
+			link: "logos-lettering.html",
+			title: "Logos & Lettering"
+			},
+			{
+			link: "transistor.html",
+			title: "Transistor Chicago"
+			},
+			{
+			link: "illustrations.html",
+			title: "Illustrations"
+		}]
+};
+var compiled = theTemplate(context);
+$('nav').html(compiled);
 });
 //
 
