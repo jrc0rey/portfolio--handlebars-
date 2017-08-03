@@ -1,0 +1,122 @@
+h1{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	23px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+p{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	13px;
+	font-weight: 300;
+}
+
+h1.nav{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	13px;
+	font-weight: 300;
+	padding-right: 10px;
+}
+
+h1.nav:hover{
+	color: #6F00FF;
+	cursor: pointer;
+}
+
+h1.navSpace{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	13px;
+	font-weight: 300;
+	padding-right: 10px;
+}
+
+
+
+ul{
+	line-height: 25px;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 300;
+	font-size:	10px;
+	padding: 0;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #6F00FF;
+}
+
+hr{
+	border-top: 1px dotted grey;
+	border-bottom: none;
+}
+
+a.resume:hover{
+	color: #6F00FF;
+}
+
+a.resume{
+	line-height: 20px;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 300;
+	font-size:	10px;
+	color: grey;
+}
+
+.number,.mail{
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 300;
+	padding-right: 10px;
+	color: grey;
+}
+
+.number:hover{
+	color: grey;
+	cursor: initial;
+}
+
+
+li:hover{
+	color: #6F00FF;
+	cursor: pointer;
+}
+
+.tools{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	10px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 35px;
+}
+
+.appLink{
+	font-family: "omnes-pro", sans-serif;
+	font-size:	13px;
+	font-weight: 300;
+	text-decoration: underline;
+}
+
+.imgDescrip{
+	width: 80%;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+h4{
+	margin-left: 6px;
+	font-family: "omnes-pro", sans-serif;
+	font-size:	10px;
+	font-weight: 300;
+	color: white;
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+@media screen and (max-width: 700px){
+	aside,.contain {
+		display: none !important;
+	}
+	header{
+		display: flex !important;
+	}
+	a:hover{
+		color: black !important;
+	}
+	.imgMobile{
+		display: block !important;
+	}
+	img,.iMobile{
+		display: block !important;
+		width: 100%;
+		margin-top: 10px;
+	}
+	p.imgDescrip{
+		text-align: center;
+		width: 100%;
+	}
+	.appLink{
+		line-height: 75px;
+		font-size: 22px !important;
+	}
+}
+
+
+
+.resName{
+	margin-left: 12px;
+}
+
+.burger{
+	font-size: 25px;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.resLinks{
+	font-size: 20px;
+
+}
+
+nav{
+	flex-direction: column;
+}
+
+
+ul.resLinks li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+
+ul.resLinks li a{
+	color: white;
+}
+
+ul.resLinks li a:hover{
+	color: #6F00FF !important;
+}

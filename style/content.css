@@ -1,0 +1,122 @@
+	
+.contain{
+	/*position: absolute;*/
+	/*right: 0;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+	width:70%;
+	height: 100vh;
+	margin-left: 300px;
+	/*background-color: red;*/
+}
+
+.imgContain{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	width: 85%;
+	/*background-color: green;*/
+}
+
+.imgContainScofflaw,.imgContainGreysite,.imgContainApi{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	width: 85%;
+	/*background-color: green;*/
+}
+
+
+.greyImg{
+	width: 100%;
+}
+
+/*Horizontal orientation*/
+
+.scoffItem1,.photo1,.audible1,.apiItem,
+.caf1,.t1,.logo1,.ill1{
+	width: 100%;
+	display: block;
+}
+
+.virgin1{
+	width: 100%;
+	display: block;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+}
+
+.scoffItem2,.photo2,.photo3,.photo4,
+.photo5,.photo6,.photo7,.photo8,.photo9,
+.audible2,.audible3,.caf2,.caf3,.caf4,
+.poster8,.poster9,.poster10,.hwd6,.hwd7,
+.hwd8,.hwd9,.hwd2,.t2,.t3,.logo2,.logo3,.logo4,
+.logo5,.ill2,.ill3,.ill4,.ill5,.ill6{
+	width: 100%;
+	display: none;
+}
+
+.virgin2{
+	width: 100%;
+	display: none;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+}
+
+iframe{
+	width: 100%;
+	display: none;
+}
+
+/*Verical orientation*/
+
+.poster1,.hwd1{
+	width: 65%;
+	display: block;
+}
+
+.poster2,.poster3,.poster4,.poster5,
+.poster6,.poster7,.hwd3,.hwd4,.hwd5{
+	width:65%;
+	display:none;
+}
+
+/**/
+
+.featured{
+	display: flex;
+	align-items:center;
+	width: 135px;
+	height: 20px;
+	background-color: #6F00FF;
+	position: fixed;
+	right: 0%;
+	top: 30%;
+}
+
+/*// Mobile
+*/
+/*.containScreen{
+	display: none;
+	width: 100%;
+	height: 100vh;
+	background-color: green;
+}*/
+
+.imgMobile{
+	display: none;
+	width: 100%;
+	height: 100vh;
+	/*background-color: blue;*/
+	margin-top: 20px;
+}
+
+
